@@ -1,0 +1,28 @@
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# Downloads folder
+downloads/
+
+# Credentials (IMPORTANT - don't commit this!)
+credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db
