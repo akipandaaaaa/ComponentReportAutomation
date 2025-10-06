@@ -15,10 +15,10 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
     
@@ -61,7 +61,7 @@ jobs:
         zip -r ComponentReportAutomation-macOS.zip ComponentReportAutomation.app README.txt
     
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ComponentReportAutomation-macOS
         path: dist/ComponentReportAutomation-macOS.zip
